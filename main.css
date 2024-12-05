@@ -1,6 +1,7 @@
 :root {
-    --font: "Monttserrat", "Inter", "Rubik";
+    --font: "Monttserrat", "Inter", "Rubik"
 }
+
 body {
     margin: 0;
     font-family: var(--font);
@@ -9,35 +10,65 @@ body {
 .hero-section {
     background-image: url(media/Background.webp);
     background-size: cover;
-    background-position: center
-    
+    background-position: center;
+    width: 1440px;
+    height: 720px;
+    margin: 0 auto;
+    color: #ffffff;
 }
 
-.centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container {
-    width: 1200px;
-    position: relative;
-    display: flex;
-}
 .navbar {
-    display: block;
+    display: flex;
     justify-content: center;
     height: 80px;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+
+.container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}
+
 .brand {
     width: 40px;
     height: 40px;
     display: block;
-    margin-top: 20px;
     text-decoration: none;
 }
 
+.section-break {
+    background-color: #ffffff;
+    height: 2px;
+    display: flex;
+}
+
+.reg-buttons {
+    
+}
+
+.button {
+    font-family: "Rubik";
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #0000;
+}
+
+/* Green */
+.button2 {
+    background-color: #4EC7FF;
+}
