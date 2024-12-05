@@ -24,6 +24,8 @@ h1 {
 }
 .section {
     width: 1440px;
+    padding-top: 140px;
+    margin: 0 auto;
 }
 
 .navbar {
@@ -39,8 +41,8 @@ h1 {
 }
 
 .centered {
+    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .brand {
