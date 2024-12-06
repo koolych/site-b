@@ -57,17 +57,17 @@ h1 {
     display: block;
     text-decoration: none;
 }
+.fix-align {
+    margin-left: 20px
+}
 
 .reg-buttons {
-    margin-left: auto;
-    margin-right: 20px;
-    align-items: center;
+    margin: 0 20px 0 auto;
 }
 
 .section-break {
     background-color: #ffffff;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px 0 20px;
     min-width: 655px;
     height: 2px;
 }
@@ -88,10 +88,29 @@ h1 {
 
 }
 
-.button1 {
+.register {
     background-color: #0000;
 }
 
-.button2 {
+.login {
     background-color: var(--header-color);
+}
+
+.card-section {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    background-color: #CDEFFF;
+    border-radius: 16px;
+    padding: 12px;
+    max-height: fit-content;
+}
+
+.card-break {
+    height: 2px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #ABABAB;
 }
