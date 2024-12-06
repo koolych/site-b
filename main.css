@@ -30,6 +30,8 @@ h1 {
     max-width: 1440px;
     padding-top: 140px;
     margin: 0 auto;
+    
+    overflow: hidden;
 }
 
 .navbar {
@@ -85,7 +87,19 @@ h1 {
     margin: 4px 2px;
     border-radius: 12px;
     cursor: pointer;
-
+}
+.button {
+    font-family: "Rubik";
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 .register {
@@ -109,18 +123,38 @@ h1 {
 }
 #card {
     border-radius: 16px;
-    margin: 0;
+    margin: 0 0 24px 0;
     max-height: 250px;
     max-width: 360px;
     padding: 0;
+    display: block;
     justify-content: center;
 }
 
+.prices {
+    height: 40px;
+    margin: 10px 0 0 0;
+    display: flex; justify-content: bottom;
+}
 
 .card-break {
     height: 2px;
     margin-top: 8px;
     margin-bottom: 8px;
     background-color: #ABABAB;
-    width: 1300px;
+    width: 1400px;
+}
+
+#card-title {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+}
+
+#card-desc {
+    margin: 8px 0 0;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
 }
